@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+.container{
+    margin: 100px;
+}
+.bd{
+    border-style: dotted;
+}
+.pd{
+    padding: 100px;
+}
+.content{
+    background-color: blue;
+}
+.container1{
+    margin: 100px;
+}
+.bd1{
+    border-style: dotted;
+}
+.pd1{
+    padding: 100px;
+}
+.content1{
+    background-color: blue;
+}

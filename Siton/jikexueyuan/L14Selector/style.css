@@ -1,0 +1,12 @@
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.div2{
+    transform: translate(100px, 100px);
+    -webkit-transform: translate(100px, 100px);
+    -ms-transform: translate(200px, 100px); /*IE*/
+    -o-transform: translate(200px, 100px); /*Opera*/
+    -moz-transform: translate(200px, 100px);
+}
