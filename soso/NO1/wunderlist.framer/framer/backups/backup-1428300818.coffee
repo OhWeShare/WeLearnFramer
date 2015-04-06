@@ -35,19 +35,19 @@ addnewtask.states.animationOptions = {curve: "spring(300,20,0)"};
 addnewtasktips.states.add("click", {x:193, opacity:1});
 addnewtasktips.states.animationOptions = {curve: "spring(350,20,0)"};
 
-wunderlistLayers.addnewlist.states.add("click", {y:1016, opacity:1});
-wunderlistLayers.addnewlist.states.animationOptions = {curve: "spring(450,30,0)"};
+addnewlist.states.add("click", {y:1016, opacity:1});
+addnewlist.states.animationOptions = {curve: "spring(450,30,0)"};
 
-wunderlistLayers.addnewlisttips.states.add("click", {scale:1, opacity:1, x:193, y:1034});
-wunderlistLayers.addnewlisttips.states.animationOptions = {curve: "spring(450,30,0)"};
+addnewlisttips.states.add("click", {scale:1, opacity:1, x:193, y:1034});
+addnewlisttips.states.animationOptions = {curve: "spring(450,30,0)"};
 
 # 开始点击
-wunderlistLayers.add.on Events.TouchStart, ->
-	wunderlistLayers.add.states.next();	
+add.on Events.TouchStart, ->
+	add.states.next();	
 
 # 结束点击
-wunderlistLayers.add.on Events.TouchEnd, ->
-	wunderlistLayers.addnewtask.states.next();	
-	wunderlistLayers.addnewtasktips.states.next();
-	wunderlistLayers.addnewlist.states.next();	
-	wunderlistLayers.addnewlisttips.states.next();	
+add.on Events.TouchEnd, ->
+	addnewtask.states.next();	
+	addnewtasktips.states.next();
+	addnewlist.states.next();	
+	addnewlisttips.states.next();	

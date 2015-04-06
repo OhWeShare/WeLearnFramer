@@ -22,8 +22,8 @@ addnewlist.opacity = 0;
 addnewlisttips.y = 1155;
 addnewlisttips.x = 320;
 
-wunderlistLayers.addnewlisttips.scale = 0.7;
-wunderlistLayers.addnewlisttips.opacity = 0;
+addnewlisttips.scale = 0.7;
+addnewlisttips.opacity = 0;
 
 # 定义动画
 add.states.add("click", {scale:0.8});
