@@ -3,31 +3,37 @@
 # 加载源文件
 wunderlistLayers = Framer.Importer.load "imported/wunderlist"
 
+addnewtask = wunderlistLayers.addnewtask;
+addnewtasktips = wunderlistLayers.addnewtasktips;
+addnewlist = wunderlistLayers.addnewlist;
+addnewlisttips = wunderlistLayers.addnewlisttips;
+add = wunderlistLayers.add;
+
 # 定义各元素初始状态
-wunderlistLayers.addnewtask.scale = 0.9;
-wunderlistLayers.addnewtask.opacity = 0;
+addnewtask.scale = 0.9;
+addnewtask.opacity = 0;
 
-wunderlistLayers.addnewtasktips.x = 240;
-wunderlistLayers.addnewtasktips.opacity = 0;
+addnewtasktips.x = 240;
+addnewtasktips.opacity = 0;
 
-wunderlistLayers.addnewlist.y = 1143;
-wunderlistLayers.addnewlist.opacity = 0;
+addnewlist.y = 1143;
+addnewlist.opacity = 0;
 
-wunderlistLayers.addnewlisttips.y = 1155;
-wunderlistLayers.addnewlisttips.x = 320;
+addnewlisttips.y = 1155;
+addnewlisttips.x = 320;
 
 wunderlistLayers.addnewlisttips.scale = 0.7;
 wunderlistLayers.addnewlisttips.opacity = 0;
 
 # 定义动画
-wunderlistLayers.add.states.add("click", {scale:0.8});
-wunderlistLayers.add.states.animationOptions = {curve: "spring(300,20,0)"};
+add.states.add("click", {scale:0.8});
+add.states.animationOptions = {curve: "spring(300,20,0)"};
 
-wunderlistLayers.addnewtask.states.add("click", {scale:1, opacity:1,});
-wunderlistLayers.addnewtask.states.animationOptions = {curve: "spring(300,20,0)"};
+addnewtask.states.add("click", {scale:1, opacity:1,});
+addnewtask.states.animationOptions = {curve: "spring(300,20,0)"};
 
-wunderlistLayers.addnewtasktips.states.add("click", {x:193, opacity:1});
-wunderlistLayers.addnewtasktips.states.animationOptions = {curve: "spring(350,20,0)"};
+addnewtasktips.states.add("click", {x:193, opacity:1});
+addnewtasktips.states.animationOptions = {curve: "spring(350,20,0)"};
 
 wunderlistLayers.addnewlist.states.add("click", {y:1016, opacity:1});
 wunderlistLayers.addnewlist.states.animationOptions = {curve: "spring(450,30,0)"};
