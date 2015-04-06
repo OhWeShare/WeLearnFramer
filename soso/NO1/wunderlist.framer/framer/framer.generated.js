@@ -2,7 +2,7 @@
 
 
 window.__imported__ = window.__imported__ || {};
-window.__imported__["framerjs/layers.json.js"] = [
+window.__imported__["wunderlist/layers.json.js"] = [
   {
     "maskFrame" : null,
     "id" : "64661BDD-F885-4904-85BD-E2C1B3351537",
@@ -18,50 +18,45 @@ window.__imported__["framerjs/layers.json.js"] = [
         "image" : {
           "path" : "images\/addnewtask-CA4E7C3C-1399-44DD-90C2-6827E20CD9A5.png",
           "frame" : {
-            "y" : 1018,
-            "x" : 190,
-            "width" : 235,
+            "y" : 1143,
+            "x" : 327,
+            "width" : 98,
             "height" : 98
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 1018,
-          "x" : 190,
-          "width" : 235,
+          "y" : 1143,
+          "x" : 327,
+          "width" : 98,
           "height" : 98
         },
         "name" : "addnewtask"
       },
       {
-        "maskFrame" : {
-          "y" : 111,
-          "x" : 308,
-          "width" : 134,
-          "height" : 136
-        },
-        "id" : "CDFA5307-EABA-43FE-8153-C3087E6536DD",
+        "maskFrame" : null,
+        "id" : "64C392AC-4ED2-404D-BE52-4D70A27B6D2C",
         "visible" : true,
         "children" : [
 
         ],
         "image" : {
-          "path" : "images\/usericon-CDFA5307-EABA-43FE-8153-C3087E6536DD.png",
+          "path" : "images\/addnewlisttips-64C392AC-4ED2-404D-BE52-4D70A27B6D2C.png",
           "frame" : {
-            "y" : 104,
-            "x" : 300,
-            "width" : 151,
-            "height" : 212
+            "y" : 1029,
+            "x" : 188,
+            "width" : 114,
+            "height" : 67
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 104,
-          "x" : 300,
-          "width" : 151,
-          "height" : 212
+          "y" : 1029,
+          "x" : 188,
+          "width" : 114,
+          "height" : 67
         },
-        "name" : "usericon"
+        "name" : "addnewlisttips"
       },
       {
         "maskFrame" : null,
@@ -73,17 +68,17 @@ window.__imported__["framerjs/layers.json.js"] = [
         "image" : {
           "path" : "images\/addnewlist-F9DD3E57-0D8C-4B08-AD88-DB162AFB89A7.png",
           "frame" : {
-            "y" : 897,
-            "x" : 190,
-            "width" : 235,
+            "y" : 1014,
+            "x" : 327,
+            "width" : 98,
             "height" : 98
           }
         },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 897,
-          "x" : 190,
-          "width" : 235,
+          "y" : 1014,
+          "x" : 327,
+          "width" : 98,
           "height" : 98
         },
         "name" : "addnewlist"
@@ -112,6 +107,56 @@ window.__imported__["framerjs/layers.json.js"] = [
           "height" : 98
         },
         "name" : "add"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "14C92BD7-12D6-4670-ACEB-D514EF99E227",
+        "visible" : true,
+        "children" : [
+
+        ],
+        "image" : {
+          "path" : "images\/addnewtasktips-14C92BD7-12D6-4670-ACEB-D514EF99E227.png",
+          "frame" : {
+            "y" : 1158,
+            "x" : 188,
+            "width" : 114,
+            "height" : 67
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 1158,
+          "x" : 188,
+          "width" : 114,
+          "height" : 67
+        },
+        "name" : "addnewtasktips"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "CDFA5307-EABA-43FE-8153-C3087E6536DD",
+        "visible" : true,
+        "children" : [
+
+        ],
+        "image" : {
+          "path" : "images\/usericon-CDFA5307-EABA-43FE-8153-C3087E6536DD.png",
+          "frame" : {
+            "y" : 101,
+            "x" : 297,
+            "width" : 160,
+            "height" : 212
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 101,
+          "x" : 297,
+          "width" : 160,
+          "height" : 212
+        },
+        "name" : "usericon"
       },
       {
         "maskFrame" : null,
@@ -159,26 +204,22 @@ window.__imported__["framerjs/layers.json.js"] = [
   }
 ]
 window.Framer.Defaults.DeviceView = {
-  "deviceScale" : "fit",
+  "deviceScale" : -1,
   "orientation" : 0,
   "contentScale" : 1,
-<<<<<<< HEAD
-  "deviceType" : "iphone-6-gold-hand"
-=======
-  "deviceType" : "iphone-6-silver-hand"
+  "deviceType" : "iphone-6-silver"
 };
 
 window.Framer.Defaults.DeviceComponent = {
-  "deviceScale" : "fit",
+  "deviceScale" : -1,
   "orientation" : 0,
   "contentScale" : 1,
-  "deviceType" : "iphone-6-silver-hand"
->>>>>>> ef0d6a3f00f7e446bee17732345c487b40d546c6
+  "deviceType" : "iphone-6-silver"
 };
 
 window.FramerStudioInfo = {
   "deviceImagesUrl" : "file:\/\/\/Applications\/Framer%20Studio.app\/Contents\/Resources\/DeviceImages\/",
-  "documentTitle" : "framerjs.framer"
+  "documentTitle" : "wunderlist.framer"
 };
 
 Framer.Device = new Framer.DeviceView();
