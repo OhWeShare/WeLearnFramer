@@ -1,6 +1,7 @@
 layerBackground = new Layer
 	x: 0, y: 0, width: 750, height: 1334
 	image: "imported/framerjs/images/background-E1F84544-ACAB-4BF0-9425-629C21A4A9BC.png"
+	scroll: true
 	
 layerUsericon = new Layer
 	x: 308, y: 110, width: 151, height: 212
@@ -30,8 +31,13 @@ layerAdd.states.add
 
 layerAddnewtask.states.add
 	second: {
-		properties:
-			x: 193, y: 1145
+		y: 1145
+		scale: 1
+		opacity: 1}
+
+layerAddnewlist.states.add
+	second: {
+		y: 1020
 		scale: 1
 		opacity: 1}
 
@@ -43,16 +49,12 @@ layerAddnewtask.states.animationOptions =
 	curve: "ease-in-out"
 	time: 0.2
 
-layerAddnewlistfun = () ->
-	layerAddnewlist.animate
-		properties:
-			y: 1020
-			scale: 1
-			opacity: 1
-		curve: "ease-in-out"
-		time: 0.2
+layerAddnewlist.states.animationOptions =
+	curve: "ease-in-out"
+	time: 0.2
 
 layerAdd.on Events.Click, ->
 	layerAdd.states.next()
 	layerAddnewtask.states.next()
-	layerAddnewlistfun()
+	layerAddnewlist.states.next()
+
