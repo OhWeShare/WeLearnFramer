@@ -41,13 +41,6 @@ layerAddnewlist.states.add
 		scale: 1
 		opacity: 1}
 
-layerAddnewlist.states.add
-	second: {
-		properties:
-			x: 193, y: 1020
-		scale: 1
-		opacity: 1}
-
 layerAdd.states.animationOptions =
 	curve: "ease-in-out"
 	time: 0.2
@@ -60,27 +53,11 @@ layerAddnewlist.states.animationOptions =
 	curve: "ease-in-out"
 	time: 0.2
 
-<<<<<<< HEAD
 layerAddnewlist.states.animationOptions =
 	curve: "ease-in-out"
 	time: 0.2
-=======
-#layerAddnewlistfun = () ->
-#	layerAddnewlist.animate
-#		properties:
-#			y: 1020
-#			scale: 1
-#			opacity: 1
-#		curve: "ease-in-out"
-#		time: 0.2
->>>>>>> ef0d6a3f00f7e446bee17732345c487b40d546c6
 
 layerAdd.on Events.Click, ->
 	layerAdd.states.next()
 	layerAddnewtask.states.next()
 	layerAddnewlist.states.next()
-<<<<<<< HEAD
-
-=======
-#	layerAddnewlistfun()
->>>>>>> ef0d6a3f00f7e446bee17732345c487b40d546c6
