@@ -2,8 +2,6 @@ window.__imported__ = window.__imported__ || {};
 window.__imported__["wunderlist/layers.json.js"] = [
   {
     "maskFrame" : null,
-    "id" : "64661BDD-F885-4904-85BD-E2C1B3351537",
-    "visible" : true,
     "children" : [
       {
         "maskFrame" : null,
@@ -13,7 +11,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/addnewtask-CA4E7C3C-1399-44DD-90C2-6827E20CD9A5.png",
+          "path" : "images\/Layer-addnewtask-CA4E7C3C-1399-44DD-90C2-6827E20CD9A5.png",
           "frame" : {
             "y" : 1143,
             "x" : 327,
@@ -38,7 +36,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/addnewlisttips-64C392AC-4ED2-404D-BE52-4D70A27B6D2C.png",
+          "path" : "images\/Layer-addnewlisttips-64C392AC-4ED2-404D-BE52-4D70A27B6D2C.png",
           "frame" : {
             "y" : 1029,
             "x" : 188,
@@ -63,7 +61,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/addnewlist-F9DD3E57-0D8C-4B08-AD88-DB162AFB89A7.png",
+          "path" : "images\/Layer-addnewlist-F9DD3E57-0D8C-4B08-AD88-DB162AFB89A7.png",
           "frame" : {
             "y" : 1014,
             "x" : 327,
@@ -88,7 +86,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/add-D10CDC86-5C88-44F6-83F4-6B430EB44427.png",
+          "path" : "images\/Layer-add-D10CDC86-5C88-44F6-83F4-6B430EB44427.png",
           "frame" : {
             "y" : 1143,
             "x" : 327,
@@ -113,7 +111,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/addnewtasktips-14C92BD7-12D6-4670-ACEB-D514EF99E227.png",
+          "path" : "images\/Layer-addnewtasktips-14C92BD7-12D6-4670-ACEB-D514EF99E227.png",
           "frame" : {
             "y" : 1158,
             "x" : 188,
@@ -138,7 +136,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
 
         ],
         "image" : {
-          "path" : "images\/usericon-CDFA5307-EABA-43FE-8153-C3087E6536DD.png",
+          "path" : "images\/Layer-usericon-CDFA5307-EABA-43FE-8153-C3087E6536DD.png",
           "frame" : {
             "y" : 101,
             "x" : 297,
@@ -160,10 +158,59 @@ window.__imported__["wunderlist/layers.json.js"] = [
         "id" : "E1F84544-ACAB-4BF0-9425-629C21A4A9BC",
         "visible" : true,
         "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "BF796D62-6B94-4252-8592-452B75A65601",
+            "visible" : true,
+            "children" : [
 
+            ],
+            "image" : {
+              "path" : "images\/Layer-nav-BF796D62-6B94-4252-8592-452B75A65601.png",
+              "frame" : {
+                "y" : 0,
+                "x" : 0,
+                "width" : 750,
+                "height" : 127
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 0,
+              "x" : 0,
+              "width" : 750,
+              "height" : 127
+            },
+            "name" : "nav"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "318E7288-682C-455D-8A42-D7A0727CAF90",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-diban-318E7288-682C-455D-8A42-D7A0727CAF90.png",
+              "frame" : {
+                "y" : 376,
+                "x" : 0,
+                "width" : 750,
+                "height" : 958
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 376,
+              "x" : 0,
+              "width" : 750,
+              "height" : 958
+            },
+            "name" : "diban"
+          }
         ],
         "image" : {
-          "path" : "images\/background-E1F84544-ACAB-4BF0-9425-629C21A4A9BC.png",
+          "path" : "images\/Layer-background-E1F84544-ACAB-4BF0-9425-629C21A4A9BC.png",
           "frame" : {
             "y" : 0,
             "x" : 0,
@@ -181,15 +228,8 @@ window.__imported__["wunderlist/layers.json.js"] = [
         "name" : "background"
       }
     ],
-    "image" : {
-      "path" : "images\/test-64661BDD-F885-4904-85BD-E2C1B3351537.png",
-      "frame" : {
-        "y" : 0,
-        "x" : 0,
-        "width" : 750,
-        "height" : 1334
-      }
-    },
+    "id" : "64661BDD-F885-4904-85BD-E2C1B3351537",
+    "visible" : true,
     "imageType" : "png",
     "layerFrame" : {
       "y" : 0,
