@@ -10,6 +10,8 @@ addnewlisttips = wunderlistLayers.addnewlisttips;
 add = wunderlistLayers.add;
 diban = wunderlistLayers.diban;
 nav = wunderlistLayers.nav;
+list = wunderlistLayers.list;
+home = wunderlistLayers.home;
 
 # 定义各元素初始状态
 addnewtask.scale = 0.9;
@@ -66,11 +68,33 @@ add.states.add("check",{y:1335});
 nav.states.add("opacity",{opacity:0.5})
 nav.states.animationOptions = {curve: "spring(280,30,0)"};
 
+home.states.add("opacity",{opacity:0, x:-712})
+home.states.animationOptions = {curve: "spring(280,30,0)"};
+
+list.opacity = 0
+list.states.add("opacity",{opacity:1, x:0})
+list.states.animationOptions = {curve: "spring(280,30,0)"};
+
+list.draggable.enabled = true;
+list.draggable.speedY = 0;
+
 diban.on Events.Click, ->
 	diban.states.next("click");
 	add.states.next("check");
 	nav.states.next();
+	if addnewlist.opacity > 0
+		add.off Events.TouchEnd, ->
+		addnewtask.states.next();
+		addnewtasktips.states.next();
+		addnewlist.states.next();
+		addnewlisttips.states.next();
+	home.states.next();
+	list.states.next(["opacity"]);
 	
+list.draggable.enabled = true;
+list.draggable.speedY = 0;
 
+list.on Events.DragMove, ->
+	nav.states.next();
 
 

@@ -130,26 +130,66 @@ window.__imported__["wunderlist/layers.json.js"] = [
       },
       {
         "maskFrame" : null,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "969E071A-1068-4680-A820-796535410821",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-list-969E071A-1068-4680-A820-796535410821.png",
+              "frame" : {
+                "y" : 58,
+                "x" : 793,
+                "width" : 663,
+                "height" : 179
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 58,
+              "x" : 793,
+              "width" : 663,
+              "height" : 179
+            },
+            "name" : "list"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "CC82D73A-2B71-4C54-90A2-ABB54CC84B17",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-home-CC82D73A-2B71-4C54-90A2-ABB54CC84B17.png",
+              "frame" : {
+                "y" : 52,
+                "x" : 44,
+                "width" : 668,
+                "height" : 261
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 52,
+              "x" : 44,
+              "width" : 668,
+              "height" : 261
+            },
+            "name" : "home"
+          }
+        ],
         "id" : "CDFA5307-EABA-43FE-8153-C3087E6536DD",
         "visible" : true,
-        "children" : [
-
-        ],
-        "image" : {
-          "path" : "images\/Layer-usericon-CDFA5307-EABA-43FE-8153-C3087E6536DD.png",
-          "frame" : {
-            "y" : 101,
-            "x" : 297,
-            "width" : 160,
-            "height" : 212
-          }
-        },
         "imageType" : "png",
         "layerFrame" : {
-          "y" : 101,
-          "x" : 297,
-          "width" : 160,
-          "height" : 212
+          "y" : 52,
+          "x" : 44,
+          "width" : 1412,
+          "height" : 261
         },
         "name" : "usericon"
       },
@@ -158,6 +198,31 @@ window.__imported__["wunderlist/layers.json.js"] = [
         "id" : "E1F84544-ACAB-4BF0-9425-629C21A4A9BC",
         "visible" : true,
         "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "35DEC03E-19EC-49B1-8AAD-8841BD6D090A",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/Layer-staus-35DEC03E-19EC-49B1-8AAD-8841BD6D090A.png",
+              "frame" : {
+                "y" : 11,
+                "x" : 13,
+                "width" : 726,
+                "height" : 20
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 11,
+              "x" : 13,
+              "width" : 726,
+              "height" : 20
+            },
+            "name" : "staus"
+          },
           {
             "maskFrame" : null,
             "id" : "BF796D62-6B94-4252-8592-452B75A65601",
@@ -234,7 +299,7 @@ window.__imported__["wunderlist/layers.json.js"] = [
     "layerFrame" : {
       "y" : 0,
       "x" : 0,
-      "width" : 750,
+      "width" : 1500,
       "height" : 1334
     },
     "name" : "test"
